@@ -6,4 +6,4 @@ print(dict_1.get('work'),'\n', '-' * 10,'\n', dict_1.get('sname'), dict_1.get('n
 a = int(user_2["age"])
 b = int(dict_1["age"])
 
-print((a + b)/2)
+print(int((a + b)/2))
