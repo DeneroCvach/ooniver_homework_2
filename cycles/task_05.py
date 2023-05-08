@@ -1,12 +1,14 @@
 k = 0
-lst = []
-summ = 0
 
-for i in range(1, 1000):
-    while k
-        summ += (i % 10)
-        step = i // 10
-        print(summ)
-
-
-print(lst)
+for number in range(0, 1000):
+    counter = 0
+    for digit in str(number):
+        counter += int(digit)
+    if counter > 1:
+        for simple in range(2, counter):
+            if counter % simple == 0:
+                k = k + 1
+        if k == 0:
+            print(number, '->', counter)
+        else:
+            k = 0
