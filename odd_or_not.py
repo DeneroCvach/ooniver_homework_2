@@ -5,7 +5,7 @@ if not a % 2:
     print('a is even')
 else:
     print("a is odd")
-elif not b % 2:
+if not b % 2:
     print('b is even')
 else:
     print("b is odd")
